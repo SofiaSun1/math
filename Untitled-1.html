@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Математика</title>
+    <link rel="stylesheet" href="mathstyle.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header> <h1>Математика</h1></header>
+    <section class="circle">
+        <div class="krug">
+        <h2>Круг</h2>
+        <p>Задайте радиус круга <input type="text" id="r"></p>
+        <p><input type="button" value="вычислить" onclick="calckrug()"></p>
+        <h3 id="s">Площадь=</h3>
+        <h3 id="p">Периметр</h3>
+        </div>
+    </section>
+    <section class="repair">
+        <div class="room">
+        <h2>Ремонт</h2>
+        <p>Задайте длину первой стены комнаты <input type="text" id="dl1"></p>
+        <p>Задайте высоту первой стены комнаты <input type="text" id="vis1"></p>
+        <p>Задайте длину второй стены комнаты <input type="text" id="dl2"></p>
+        <p>Задайте высоту второй стены комнаты <input type="text" id="vis2"></p>
+        <p>Задайте ширину обоев 10-ти метрового рулона <input type="text" id="roll"></p>
+        <p><input type="button" value="вычислить" onclick="calcrepair()"></p>
+        <h3 id="rollsht">Количество рулонов=</h3>
+        </div>
+    </section>
+    <section class="equation">
+        <div class="uravnenie">
+        <h2>Решение линейного уравнения ax+b=0</h2>
+        <p>Введите коэффицент a <input type="text" id="a"></p>
+        <p>Введите коэффицент b <input type="text" id="b"></p>
+        <p id="lineq">уравнения:</p>
+        <p><input type="button" value="вычислить" onclick="calckequation()"></p>
+        <p id="root"></p>
+        <p><input type="button" value="очистить" onclick="clearequation()"></p>
+        </div>
+    </section>
+    <section class="tic-tac-toe">
+        <h2>Крестики-нолики</h2>
+        <table onclick="play(event)" id="ttt">
+            <tr>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td>
+                </td>
+                <td>
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    </tr>
+        </table>
+    </section>
+</body>
+</html>

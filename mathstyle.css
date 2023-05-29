@@ -1,0 +1,69 @@
+@font-face {
+    font-family: bad;
+    src: url(BadScript-Regular.ttf);
+}
+header{
+    background-image: url(8989194_4028133.jpg);
+    height: 100vh;
+    background-size: 110vw auto;
+    display: flex;
+    background-position: -10vw 0;
+}
+header h1{
+    margin: auto;
+    font-size: 100px;
+    font-family: bad;
+    color: rgb(51, 39, 103);
+}
+body{
+    margin: 0;
+}
+.circle{
+    width: 25vw;
+    border-radius: 50%;
+    margin: 135px auto;
+    border: 10px groove rgb(240, 156, 0);
+    height: 25vw;
+    display: flex;
+    transform: scale(1.5);
+}
+.krug{
+    margin: auto;
+}
+.repair{
+    background-image: url(3685496_1014.jpg);
+    background-size:cover ;
+    padding: 50px;
+    padding-left:25px;
+    height: 80vh;
+}
+.repair div{
+    background-color:rgba(255, 123, 160, 0.718) ;
+    padding: 20px;
+    width: fit-content;
+}
+.equation{
+    background-color:rgb(169, 177, 222) ;
+    padding: 50px;
+}
+.equation div{
+    width: fit-content;
+    margin: auto;
+}
+.tic-tac-toe td{
+    width: 10vw;
+    height: 10vw;
+    border: 3px solid rgb(8, 0, 11);
+    font-size: 5vw;
+    vertical-align: middle;
+    text-align: center;
+    
+}
+.tic-tac-toe{
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+}
+.tic-tac-toe table{
+    border-collapse: collapse;
+}
